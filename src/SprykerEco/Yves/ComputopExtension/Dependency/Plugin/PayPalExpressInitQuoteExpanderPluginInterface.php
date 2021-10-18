@@ -9,11 +9,14 @@ namespace SprykerEco\Yves\ComputopExtension\Dependency\Plugin;
 
 use Generated\Shared\Transfer\QuoteTransfer;
 
+/**
+ * Use this plugin to extend `QuoteTransfer` with additional data for PayPal Express payment.
+ */
 interface PayPalExpressInitQuoteExpanderPluginInterface
 {
     /**
      * Specification:
-     * - Aggregates additional data for PayPal Express payment.
+     * - Expands `QuoteTransfer` with additional data for PayPal Express payment.
      *
      * @api
      *
