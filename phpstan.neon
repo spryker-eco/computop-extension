@@ -3,3 +3,5 @@ parameters:
     checkMissingIterableValueType: false
     excludePaths:
     ignoreErrors:
+        - '#Parameter \$quoteTransfer of method .+ has invalid typehint type Generated\\Shared\\Transfer\\QuoteTransfer.#'
+        - '#Return typehint of method .+ has invalid type Generated\\Shared\\Transfer\\QuoteTransfer.#'
