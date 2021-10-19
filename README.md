@@ -17,4 +17,4 @@ composer require spryker-eco/computop-extension
 
 ## Documentation
 
-[Documentation](https://documentation.spryker.com/industry_partners/payment/computop-extension/computop-extension.htm)
+[Documentation](https://documentation.spryker.com/industry_partners/payment/computop/computop.html)
